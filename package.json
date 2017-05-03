@@ -1,0 +1,25 @@
+{
+  "name": "aframe-nodeschool",
+  "version": "0.0.1",
+  "description": "Aframe workshopper for nodeschool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webvr-india/aframe-nodeschool.git"
+  },
+  "keywords": [
+    "aframe",
+    "workshopper",
+    "nodeschool",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webvr-india/aframe-nodeschool/issues"
+  },
+  "homepage": "https://github.com/webvr-india/aframe-nodeschool#readme"
+}

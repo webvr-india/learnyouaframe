@@ -1,0 +1,7 @@
+{
+  "entry": "src/main.js",
+  "publicPath": "/dist",
+  "output": "build.js",
+  "htmlFile": "index.html",
+  "port": 8080
+}

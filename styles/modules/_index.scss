@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
-body {
-  background: #000000;
-  font-family: 'Source Sans Pro', sans-serif;
+.browser__menu__container {
   display: flex;
   justify-content: center;
 }
 
 .browser__menu {
-  background: #00D7FF;
+  background: $browser-menu-background;
   max-width: 720px;
   width: 100%;
   padding: 20px;
 }
 
 .exercise__container {
-  border-top: 1px dashed #000000;
-  border-bottom: 1px dashed #000000;
+  border-top: 1px dashed ;
+  border-bottom: 1px dashed $black;
   padding: 20px 0 20px 10px;
 }
 

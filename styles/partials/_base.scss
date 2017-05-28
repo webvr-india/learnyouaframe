@@ -1,0 +1,78 @@
+html, body {
+  background: $black;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  position: relative;
+  height: 100vh;
+}
+
+.main__container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space;
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  height: 100%;
+}
+
+.sidebar__content {
+  flex: 1;
+  background: #434449;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 5px;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.sidebar__header {
+  background: #AAAFC2;
+  color: #FFFFFF;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__action__container {
+  height: 50px;
+  background: #AAAFC2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.preview__container {
+  background: #FFFFFF;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  flex: 1;
+}
+
+.preview__button {
+  background: #58FF8B;
+  color: #34363B;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.verify__button {
+  background: #58FF8B;
+  color: #34363B;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+

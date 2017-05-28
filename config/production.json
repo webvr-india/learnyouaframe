@@ -3,6 +3,9 @@
   "publicPath": "/dist",
   "output": "build.js",
   "htmlFile": "index.html",
-  "staticDirectories": ["assets"],
-  "port": 8080
+  "staticDirectories": ["dist"],
+  "port": 8080,
+  "env": {
+    "NODE_ENV": "'production'"
+  }
 }

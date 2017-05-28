@@ -1,0 +1,1 @@
+{"data":{"hello-world":[{"name":"a-scene","attribs":{},"children":[{"name":"a-box","attribs":{"color":"green","position":"0 2 -5","rotation":"0 45 45","scale":"2 2 2"},"children":[]}]}]}}

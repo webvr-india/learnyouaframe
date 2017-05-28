@@ -4,9 +4,17 @@
   "description": "Learn. Build. Hack. A-frame workshopper",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/dev-server.js",
+    "start": "node ./bin/index.js",
+    "dev": "node ./bin/dev-server.js",
+    "create-exercise": "node ./bin/create-exercise-dir.js",
+    "build": "node ./bin/build-server.js",
+    "update-dom-skeleton": "./bin/update-dom-skeleton.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "learnyouaframe": "./bin/index.js"
+  },
+  "preferGlobal": "true",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webvr-india/learnyouaframe.git"
@@ -15,14 +23,15 @@
     "aframe",
     "tutorial"
   ],
-  "author": "",
+  "author": "webvr-india",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/webvr-india/learnyouaframe/issues"
   },
   "homepage": "https://github.com/webvr-india/learnyouaframe#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "aframe": "^0.5.0",
+    "axios": "^0.16.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -45,6 +54,12 @@
     "style-loader": "^0.17.0",
     "webpack": "^2.5.1",
     "webpack-dev-middleware": "^1.10.2",
-    "webpack-hot-middleware": "^2.18.0"
+    "webpack-hot-middleware": "^2.18.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "htmlparser2": "^3.9.2",
+    "inquirer": "^3.0.6",
+    "opn": "^5.0.0",
+    "ora": "^1.2.0"
   }
 }

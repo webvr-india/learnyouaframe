@@ -2,7 +2,7 @@
   "name": "learnyouaframe",
   "version": "0.0.1",
   "description": "Learn. Build. Hack. A-frame workshopper",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "start": "node ./bin/index.js",
     "dev": "node ./bin/dev-server.js",

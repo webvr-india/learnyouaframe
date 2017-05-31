@@ -1,26 +1,39 @@
 .browser__menu__container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .browser__menu {
-  background: $browser-menu-background;
-  max-width: 720px;
+  background: #372725;
+  max-width: 1040px;
   width: 100%;
   padding: 20px;
 }
 
-.exercise__container {
-  border-top: 1px dashed ;
-  border-bottom: 1px dashed $black;
-  padding: 20px 0 20px 10px;
+.intro {
+  color: #FFDD6F;
 }
 
-.exercise {
+.vip {
+  color: #FF764E;
+}
+
+.exercises__list {
+  border-top: 1px dashed;
+  border-bottom: 1px dashed #EFAC32;
+  padding: 20px 0 20px 10px;
+  color: #FFDD6F;
+  a {
+    color: #FFDD6F;
+  }
+}
+
+.exercises__list__item {
   list-style: none;
   padding: 5px;
 }
 
-.exercise:before {
+.exercises__list__item:before {
   content: '>>';
 }

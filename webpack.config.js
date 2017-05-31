@@ -34,7 +34,9 @@ config.module.rules = [{
     }, {
       loader: 'sass-loader',
       options: {
-        includePaths: [path.join(projectRoot, 'styles')]
+        includePaths: [
+          path.join(projectRoot, 'styles')
+        ]
       }
     }
   ]

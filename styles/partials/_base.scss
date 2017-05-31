@@ -1,9 +1,18 @@
 html, body {
-  background: $black;
+  background: $white;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   position: relative;
   height: 100vh;
+  letter-spacing: 0.02em;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.heading {
+  text-align: center;
 }
 
 .main__container {
@@ -22,17 +31,17 @@ html, body {
 
 .sidebar__content {
   flex: 1;
-  background: #434449;
-  color: #FFFFFF;
+  background: #FCFDB4;
+  color: #5C5C5C;
   font-size: 16px;
-  padding: 5px;
+  padding: 10px 20px;
   overflow-y: auto;
   max-height: 100%;
 }
 
 .sidebar__header {
-  background: #AAAFC2;
-  color: #FFFFFF;
+  background: #FFDD6F;
+  color: #5C5C5C;
   height: 50px;
   width: 100%;
   display: flex;
@@ -42,7 +51,7 @@ html, body {
 
 .sidebar__action__container {
   height: 50px;
-  background: #AAAFC2;
+  background: #FFDD6F;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -59,10 +68,11 @@ html, body {
 }
 
 .preview__button {
-  background: #58FF8B;
-  color: #34363B;
+  background: #FF764E;
+  color: #FFF;
   padding: 10px;
   border: 0;
+  border-radius: 2px;
   cursor: pointer;
   text-transform: uppercase;
 }

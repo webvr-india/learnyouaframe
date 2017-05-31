@@ -17,7 +17,6 @@ module.exports = function (callback) {
 
     if(err && !(err.code = 'EEXIST')) {
       spinner.fail('Error in creating exercises directory')
-      callback(err)
       return
     }
 
@@ -32,7 +31,6 @@ module.exports = function (callback) {
 
       if(index >= fileKeys.length) {
         spinner.succeed('Successfully created exercises directory')
-        callback(null)
         return
       }
       /**
